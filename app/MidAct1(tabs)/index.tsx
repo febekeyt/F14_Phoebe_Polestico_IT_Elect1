@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView, ScrollView } from 'react-native';
 import Messenger from './Messenger';
+import NewsFeed from './NewsFeed';
 import styles from './styles';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         ]}
       >
         <Messenger />
+        <NewsFeed />
       </ScrollView>
     </SafeAreaView>
   );
